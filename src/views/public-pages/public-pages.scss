@@ -1,0 +1,226 @@
+.container {
+  max-width: 1100px;
+  padding: 0rem 4rem 0rem 4rem;
+}
+#Navbar {
+  background: white;
+  padding: 1rem 0rem;
+  .logo {
+    max-width: 300px;
+  }
+  .Navbar {
+    background: white !important;
+  }
+  .NavItem {
+    padding: 0rem 1rem;
+  }
+  .NavLink {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 200);
+    &:hover {
+      color: black;
+    }
+  }
+}
+#footer {
+  .navLink {
+    padding: 0rem 1rem;
+    color: white;
+  }
+  .getStarted_btn {
+    background-color: #c43439;
+    color: white;
+    font-weight: bold;
+    border-radius: 5rem;
+    padding: 1rem 1.5rem 0.9rem 1.5rem !important;
+    &:hover {
+      background: #720004 !important;
+    }
+  }
+}
+#home {
+  #banner {
+    background: rgb(240, 240, 240);
+    .donate_btn {
+      background-color: #d61717;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 0.6rem 1.5rem 0.5rem 1.5rem !important;
+      &:hover {
+          background: #690000 !important;
+      }
+      .svg {
+        margin-bottom: 3px;
+      }
+    }
+    .title {
+      padding-bottom: 1rem;
+      h5 {
+        font-weight: bold;
+      }
+    }
+    .content {
+      h2 {
+        font-weight: bold;
+      }
+    }
+  }
+  #teams {
+    background: rgb(240, 240, 240);
+    .viewTeam_btn {
+      width: 100%;
+      background-color: #0d6efd;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 0.6rem 1.5rem 0.5rem 1.5rem !important;
+      &:hover {
+          background: #21d3a0 !important;
+      }
+      .svg {
+        margin-bottom: 3px;
+      }
+    }
+  }
+  #sponsors {
+    .swiper-slide {
+      background-color: white;
+      width: 160px;
+      height: 80px;
+    }
+  }
+}
+#landingpage {
+  .socialLink .socialLinkItem {
+    align-items: center;
+    background: #f5f5f7;
+    border-radius: 100px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    transition: all .2s linear;
+    width: 80px;
+  }
+  .socialLink .socialLinkItem.fillLink:hover {
+    background: #3157dd;
+  }
+  .socialLink .socialLinkItem.fillLink:hover svg * {
+    stroke: #f5f5f7;
+    fill: #f5f5f7;
+  }
+  .socialLink .socialLinkItem.strokeLink:hover {
+    background: #3157dd;
+  }
+  .socialLink .socialLinkItem.strokeLink:hover svg * {
+    stroke: #f5f5f7;
+    /* fill: #f5f5f7; */
+  }
+  .donate_btn {
+    background-color: #d61717;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem 0.5rem 1.5rem !important;
+    &:hover {
+        background: #690000 !important;
+    }
+    .svg {
+      margin-bottom: 3px;
+    }
+  }
+}
+#donationform {
+  .label {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .donate_btn {
+    background-color: #d61717;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem 0.5rem 1.5rem !important;
+    &:hover {
+        background: #690000 !important;
+    }
+    .svg {
+      margin-bottom: 3px;
+    }
+  }
+  .donation_btn {
+    height: 4rem;
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 0px;
+    color: black !important;
+    background: rgb(240, 240, 240) !important;
+    &:hover {
+      color: white !important;
+      background: #0d6efd !important;
+    }
+  }
+  .paymentMethod {
+    .form-check-input:checked {
+      background-color: transparent;
+      background-image: url('../../assets/images/public_pages/checked.svg');
+    }
+  }
+  
+}
+#thankyou {
+  .socialLink .socialLinkItem {
+    align-items: center;
+    background: #f5f5f7;
+    border-radius: 100px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    transition: all .2s linear;
+    width: 80px;
+  }
+  .socialLink .socialLinkItem.fillLink:hover {
+    background: #3157dd;
+  }
+  .socialLink .socialLinkItem.fillLink:hover svg * {
+    stroke: #f5f5f7;
+    fill: #f5f5f7;
+  }
+  .socialLink .socialLinkItem.strokeLink:hover {
+    background: #3157dd;
+  }
+  .socialLink .socialLinkItem.strokeLink:hover svg * {
+    stroke: #f5f5f7;
+    /* fill: #f5f5f7; */
+  }
+}
+
+.myComponent {
+    padding: 5rem 0rem;
+}
+
+.myFlex {
+  display: flex;
+}
+.myCenter {
+  margin: auto;
+}
+.myLeft {
+  margin: auto;
+  margin-left: 0px;
+}
+.myRight {
+  margin: auto;
+  margin-right: 0px;
+}
+.myBottom {
+  margin: auto;
+  margin-bottom: 0px;
+}
+.myWidth {
+    width: 100%;
+}
